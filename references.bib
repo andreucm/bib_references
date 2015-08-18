@@ -15,6 +15,7 @@
 @STRING{ icra09 = "Kobe, Japan. May, 2009." }
 @STRING{ icra10 = "Anchorage, USA. May, 2010." }
 @STRING{ icra11 = "Shanghai, China. May, 2011." }                
+@STRING{ icra14 = "Hong Kong, China. June, 2014." }                
 
 @STRING{ iros = "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)" } 
 @STRING{ irosWnrs06 = "Proceedings of the IEEE/RSJ IROS Workshop on Network Robot Systems" } 
@@ -44,6 +45,7 @@
 
 @STRING{ ecmr="Proceedings of the European Conference on Mobile Robots" } 
 @STRING{ ecmr05 = "Ancona, Italy. September, 2005."}
+@STRING{ ecmr15 = "Lincoln, UK. September, 2015."}
 
 @STRING{ ewamr="Proceedings of the European Workshop on Advanced Mobile Robots" } 
 @STRING{ ewamr01 = "Lund, Sweden. 2001."}
@@ -186,10 +188,24 @@ ISSN={1552-3098},
 }
 
 @INPROCEEDINGS{bailey00,
-  AUTHOR = {Bailey, T. and Nebot, E.M. and Rosenblatt, J.K. and Durrant-White, H.F.},
+  AUTHOR = {Bailey, T. and Nebot, E.M. and Rosenblatt, J.K. and Durrant-Whyte, H.F.},
   TITLE = {{Data Association for Mobile Robot Navigation: A Graph Theoretic Approach}},
   BOOKTITLE = icra,
   ADDRESS = icra00,
+}
+
+@inproceedings{baldwin12,
+    Address = {Minnesota, USA},
+    Author = {Ian Baldwin and Paul Newman},
+    Booktitle = {Proc. IEEE International Conference on Robotics and Automation (ICRA)},
+    Date-Modified = {2012-03-06 10:12:30 +0000},
+    Keywords = {2D Laser Navigation},
+    Month = {May},
+    Owner = {ashley},
+    Pdf = {http://www.robots.ox.ac.uk/~mobile/Papers/2012ICRA_Baldwin.pdf},
+    Timestamp = {2012.02.02},
+    Title = {Road vehicle localization with 2D push-broom lidar and 3D priors},
+    Year = {2012}
 }
 
 @TechReport{barbosa07,
@@ -428,6 +444,15 @@ ISSN={1552-3098},
   ADDRESS = ubicomp06,
 }
 
+@article{churchill13,
+    Author = {Winston Churchill and Paul Newman},
+    Journal = {The International Journal of Robotics Research (IJRR)},
+    Keywords = {Experience Based Navigation},
+    Pdf = {http://www.robots.ox.ac.uk/~mobile/Papers/2013IJRR_Churchill.pdf},
+    Title = {{E}xperience-based {N}avigation for {L}ong-term {L}ocalisation},
+    Year = {2013}
+}
+
 @ARTICLE{corke07,
   AUTHOR = {Corke, P. and Lobo, J. and Dias, J.},
   TITLE = {{ An Introduction to Inertial and Visual Sensing }},
@@ -569,12 +594,23 @@ ISSN={1552-3098},
 
 @ARTICLE{durrant06,
   author={Durrant-Whyte, H. and Bailey, T.},
-  journal={Robotics Automation Magazine, IEEE}, title={Simultaneous localization and mapping: part I},
+  journal={Robotics Automation Magazine, IEEE}, 
+  title={Simultaneous localization and mapping: part I},
   year={2006},
   month=june ,
   volume={13},
   number={2},
   pages={99 -110},
+}
+
+@ARTICLE{durrant07,
+  author={Durrant-Whyte, H. and Pagac, D. and Rogers, B. and Stevens, M. and Nelmes, G.},
+  journal={Robotics Automation Magazine, IEEE}, 
+  title={An autonomous straddle carrier for movement of shipping containers},
+  year={2007},
+  volume={14},
+  number={3},
+  pages={14 -23},
 }
 
 @Misc{dLibweb,
@@ -891,6 +927,13 @@ pages={3946 -3952},
   YEAR = 2006
 }
 
+@INPROCEEDINGS{kellner14,
+  AUTHOR = {Kellner, D. and Barjenbruch, M. and Klappstein, J. and Dickmann, J. and Dietmayer, K.},
+  TITLE = {{Instantaneous Ego-Motion Estimation using Multiple Doppler Radars}},
+  BOOKTITLE = icra,
+  ADDRESS = icra14
+}
+
 @ARTICLE{kelly04,
   AUTHOR = {Kelly, A.},
   TITLE = {{Linearized error propagation in odometry}},
@@ -1163,6 +1206,25 @@ pages={3946 -3952},
     year = {2009},
 }
 
+@inproceedings{maddern14,
+    Address = {Dearborn, MI, USA},
+    Author = {Will Maddern and Alex Stewart and Paul Newman},
+    Booktitle = {IEEE Intelligent Vehicles Symposium (IV)},
+    Month = {June},
+    Pdf = {http://www.robots.ox.ac.uk/~mobile/Papers/2014IVS_maddern.pdf},
+    Title = {LAPS-II: 6-DoF Day and Night Visual Localisation with Prior 3D Structure for Autonomous Road Vehicles},
+    Year = {2014}
+}
+
+@inproceedings{maddern15,
+    Address = {Seattle, WA, USA},
+    Author = {Maddern, Will and Pascoe, Geoffrey and Newman, Paul},
+    Booktitle = {{P}roceedings of the {IEEE} {I}nternational {C}onference on {R}obotics and {A}utomation ({ICRA})},
+    Month = {May},
+    Pdf = {http://www.robots.ox.ac.uk/~mobile/Papers/2015ICRA_maddern.pdf},
+    Title = {{L}everaging {E}xperience for {L}arge-{S}cale {LIDAR} {L}ocalisation in {C}hanging {C}ities},
+    Year = {2015}
+}
 
 @INPROCEEDINGS{madhavan02,
   AUTHOR = {Madhavan, R. and Fregene, K. and Parker, L.E.},
@@ -1627,6 +1689,13 @@ pages={440-445},
   TITLE = {{Randomized Algorithms for Minimum Distance Localization}},
   BOOKTITLE = wafr,
   ADDRESS = wafr04,
+}
+
+@INPROCEEDINGS{rapp15,
+  AUTHOR = {Rapp, M and Barjenbruch, M. and Hahn, M. and Dickmann, J. and Dietmayer, K.},
+  TITLE = {{A Fast Ego-Motion Estimation Framework for Radar}},
+  BOOKTITLE = ecmr,
+  ADDRESS = ecmr15,
 }
 
 @ARTICLE{rauskolb08,
